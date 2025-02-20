@@ -1,0 +1,381 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+#logo-main{
+    height: 5rem;
+}
+#logo-second{
+    height: 5rem;
+}
+.navbar-top{
+    height: 7.65rem;
+
+}
+.lets-be-funny{
+    display: flex;
+    justify-content: space-between;
+    width: 65rem;
+    background-color: #EDEBDF;
+    margin: auto;
+}
+.logo-container{
+    width: 12%;
+    background-color: #EDEBDF;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.logo-name-container{
+    width: 70%;
+    background-color: #EDEBDF;
+    margin: 0;
+    align-items: center;
+    display: grid;
+}
+.third-container-after-logo{
+    width: 18%;
+    justify-content: end;
+    align-items: center;
+    display: grid;
+}
+.CollegeName{
+    font-size: 2.3rem;
+    font-style: oblique;
+    margin-left: 16px;
+}
+
+.main-menu{
+    height: 3rem;
+    background-color: #363636;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -3rem;
+    justify-content: center;
+    display: grid;
+}
+.main-menu-list{
+    width: 65rem;
+    background-color: whitesmoke;
+    height: 3rem; /*---need to check if suits or not*/
+    justify-items: flex-start;
+    display: flex;
+}
+.list-of-links{
+    display: flex;
+    background-color: #363636;
+    color: white;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.list-navbar{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+}
+.list-navbar ul{
+    text-align: start;
+    width: 4rem;
+}
+/* .empty-space{
+    width: 15%;
+    background-color: whitesmoke;
+} */
+/* .list-empty-space{
+    width: 15%;
+    background-color: black;
+} */
+
+.menu-sample-space{
+    width: 10%;
+    background-color: #363636;
+}
+.list-of-links{
+    width: 50%;
+}
+.links-social{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    background-color:#363636;
+    color: white;
+    align-items: center;
+    padding: 12px;
+}
+.links-social p{
+    font-size: 1rem; cursor: pointer;
+}
+#fb-icon{
+    height: 1.1rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#twi-icon{
+    height: 1.1rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#go-icon{
+    height: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+#search-icon-nav{
+    width: 19px;
+    align-items: center;
+    height: 3rem;
+}
+/*drop downs - with hover effects css starts here*/
+
+/**hover to all list insdie the list navbar - */
+#home-nav-list-1{
+    list-style-type: none;
+    width: 17%;
+}
+#connect-nav-list-2{
+    width: 18%;
+}
+#third-nav-list-3{
+    width: 20%;
+}
+#fourth-nav-list-4{
+    width: 20%;
+}
+#searchbar-nav-list-5{
+    width: 25%;
+}
+
+/* first hover nav list */
+#home-nav-list-1:hover .dd-1{
+    display: block;
+}
+/* second hover nav list */
+#connect-nav-list-2:hover .dd-2{
+    display: block;
+}
+/* third drop down hover */
+#third-nav-list-3:hover .dd-3{
+    display: block;
+}
+/* fourth nav -list -hover */
+.fourth-nav-list-4:hover .dd-4{
+    display:block
+}
+/* more  detail hover effect on the sub list of dd-1, dd-2, dd-3, dd-4. */
+.dd-1 li{
+    opacity: 1;
+    cursor: pointer;
+}
+.dd-2 li{
+    opacity: 1;
+    cursor: pointer;
+}
+.dd-3 li{
+    opacity: 1;
+    cursor: pointer;
+}
+.dd-4 li{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* hover for each list now */
+
+.dd-1:hover li{
+    opacity: 0.5;
+}
+.dd-2:hover li{
+    opacity: 0.5;
+}
+.dd-3:hover li{
+    opacity: 0.5;
+}
+.dd-4:hover li{
+    opacity: 0.5;
+}
+
+
+
+.dd-1{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    width: 9rem;
+    position: absolute;
+    padding: 9px;
+    text-align: start;
+    top: 48px;
+    display: none
+}
+.dd-1 li{
+    padding: 14px;
+}
+
+.dd-2{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    width: 5rem;
+    position: absolute;
+    padding: 12px;
+    text-align: start;
+    list-style-type: none;
+    top: 48px;
+    display: none;
+}
+.dd-3{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    width: 5rem;
+    position: absolute;
+    text-align: start;
+    list-style-type: none;
+    padding: 21px;
+    top: 48px;
+    display: none;
+
+}
+.dd-4{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    width: 6rem;
+    position: absolute;
+    padding: 16px;
+    text-align: start;
+    list-style-type: none;
+    top: 48px;
+    display: none;
+}
+.dd-4 li{
+    padding: 10px;
+    
+}
+.list-navbar ul {
+    text-align: center;
+    width: 4rem;
+    height: 3rem;
+    top: -17px;
+    position: relative;
+    align-items: center;
+    padding: 0;
+}
+.list-navbar ul p{
+    padding-left: 20px;
+}
+.hamburger-icon{
+    height: 2rem;
+    position: absolute;
+    right: 9px;
+    top: 8px;
+    cursor: pointer;
+}
+.searchbar-topnavbar {
+    position: absolute;
+    height: 2rem;
+    right: 39px;
+    top: 8px;
+    cursor: pointer;
+}
+/* collapsible navbar - css starts here*/
+
+
+.second-collasp-navbar {
+    height: 19rem;
+    background-color: #363636;
+    color: white;
+    top: -397px;
+    position: relative;
+    transition: top 0.3s ease-out; /* Move it here */
+}
+.second-collasp-navbar.active {
+    top: -50px;
+}
+.list-cn {
+    padding-top: 0.3rem;
+    width: 90%;
+    text-align: start;
+    position: relative;
+}
+
+.list-cn ul {
+    content: "";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+
+@media (min-width:1040px) {
+    .hamburger-icon{
+        display: none;
+    }
+    .searchbar-topnavbar{
+        display: none;
+    }
+    .down-arrow-nav-list{
+        display: none;
+    }
+}
+
+
+
+
+
+@media (max-width:1040px) {
+    .navbar-top{
+        height: 5.7rem;
+    }
+    .navbar-top .lets-be-funny .logo-container, .logo-name-container, .third-container-after-logo{
+        display: none;
+    }
+    /* .hamburger-icon{
+
+    } */
+    /* .searchbar-topnavbar{
+
+    } */
+
+    .menu-sample-space{
+        display: none;
+    }
+    .searchbar-nav-list-5{
+        display: none;
+    }
+    .list-empty-space{
+        display: none;
+    }
+    .links-social{
+        display: none;
+    }
+    .list-of-links {
+        width: 100%;
+    }
+    #searchbar-nav-list-5 {
+        display: none;
+    }
+    .main-menu{
+        display: none;
+    }
+}
+
+
