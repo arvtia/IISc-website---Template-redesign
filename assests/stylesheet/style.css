@@ -475,11 +475,11 @@ body{
 
 @media (max-width:1040px) {
     .navbar-top{
-        height: 3.7rem;
-        z-index: 3;
+        height: 3.2rem;
+        z-index: 7;
         position: relative;
     }
-    .navbar-top .lets-be-funny .logo-container, .logo-name-container, .third-container-after-logo{
+    .navbar-top .lets-be-funny  .logo-name-container, .third-container-after-logo{
         display: none;
     }
     /* .hamburger-icon{
@@ -488,6 +488,16 @@ body{
     /* .searchbar-topnavbar{
 
     } */
+    .logo-container{
+        width: 8%;
+    }
+    /* logo-img */
+    #logo-main {
+    height: 3rem;
+    }
+    .navbar-top{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
 
     .menu-sample-space{
         display: none;
