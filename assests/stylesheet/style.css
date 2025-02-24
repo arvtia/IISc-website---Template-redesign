@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #EDEBDF;
 
 }
 
@@ -348,7 +349,7 @@ body{
 .main-footer-body-map-overlay{
     background-image: linear-gradient(130deg, #ff98008c, #2b076aa1);
     width: 100%;
-    height: 384px;;
+    height: 400px;
     position: absolute;
     z-index: 2;
     /* z-index-2 for display item on top of the image */
@@ -390,7 +391,7 @@ body{
     background-color: #363636;
     margin: 0;
     padding: 0;
-    top: -16px;
+    top: 0;
     position: relative;
     align-items:start;
     
@@ -445,7 +446,7 @@ body{
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    height: 51px;
+    height: auto;
     max-width: 65rem;
     margin: auto;
 }
@@ -523,3 +524,24 @@ body{
 }
 
 
+
+
+
+/* bootsrtap custom ccss */
+
+.custom-color-bg{
+    background-color: #CF6F3F;
+}
+
+#first-container-custom{
+    position: relative;
+    top: -47px;
+}
+
+.custom-font{
+    color: #CF6F3F;
+}
+#image-gallery-issued{
+    height: 100%;
+    width: 100%;
+}
