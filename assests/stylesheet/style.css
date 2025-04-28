@@ -18,7 +18,7 @@ body{
 .lets-be-funny{
     display: flex;
     justify-content: space-between;
-    width: 65rem;
+    width: 100%;
     background-color: #EDEBDF;
     margin: auto;
 }
